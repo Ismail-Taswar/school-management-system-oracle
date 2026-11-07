@@ -1,7 +1,7 @@
 # School Management System (Oracle Forms, Reports & APEX)
 
-A desktop + web school management system built as a university course project
-(team code: DDD-56). Covers admissions, students, classes, exams, results,
+A desktop + web school management system built as a university course project.
+Covers admissions, students, classes, exams, results,
 fees, expenses, attendance, routines, employees, and role-based users — with
  printable reports.
 
@@ -42,8 +42,8 @@ Icons/, Images/  UI assets
 
 ## How to Run
 
-1. Create a schema in Oracle DB and run `Documents/Table_Script_School_DDD56.txt`
-   (plus `Common_Table_Script...`), then `Documents/DB_Function.txt`,
+1. Create a schema in Oracle DB and run `Documents/Table_Script_School.txt`
+   (plus `Common_Table_Script_School.txt`), then `Documents/DB_Function.txt`,
    `DB_Procedure.txt`, `DB_View.txt`.
 2. Open `.fmb` files in Oracle Forms Builder, connect to the schema, and compile
    (Ctrl+Shift+K, then Ctrl+T) to regenerate `.fmx`.

@@ -692,8 +692,8 @@ wwv_flow_imp_shared.create_list_item(
 wwv_flow_imp_shared.create_list_item(
  p_id=>wwv_flow_imp.id(1259313183675386)
 ,p_list_item_display_sequence=>40
-,p_list_item_link_text=>'IsDB-BISEW'
-,p_list_item_link_target=>'https://isdb-bisew.org/ "target="_blank"'
+,p_list_item_link_text=>'Ismail Taswar'
+,p_list_item_link_target=>'https://github.com/Ismail-Taswar "target="_blank"'
 ,p_list_item_icon=>'fa-map-pin-triangle-o'
 ,p_list_item_current_type=>'TARGET_PAGE'
 );

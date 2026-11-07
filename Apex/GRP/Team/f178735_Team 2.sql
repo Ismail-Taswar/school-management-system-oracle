@@ -909,8 +909,8 @@ wwv_flow_imp_shared.create_list_item(
 wwv_flow_imp_shared.create_list_item(
  p_id=>wwv_flow_imp.id(2111002995867954008)
 ,p_list_item_display_sequence=>2
-,p_list_item_link_text=>'IsDB-BISEW'
-,p_list_item_link_target=>'https://isdb-bisew.org/"target="_blank"'
+,p_list_item_link_text=>'Ismail Taswar'
+,p_list_item_link_target=>'https://github.com/Ismail-Taswar'
 ,p_list_item_current_type=>'TARGET_PAGE'
 );
 wwv_flow_imp_shared.create_list_item(
@@ -57602,7 +57602,7 @@ wwv_flow_imp_page.create_page_plug(
 '''Total student'' AS CARD_TITLE,',
 'Total_student AS CARD_VALUE,',
 ''' Total Student of School'' AS CARD_FOOTER,',
-'''https://apex.oracle.com/pls/apex/r/nursoft/ddd-56%40isdb-bisew/total-employee-reportplugin?session='' || :APP_SESSION AS CARD_LINK,',
+'''https://github.com/Ismail-Taswar'' || :APP_SESSION AS CARD_LINK,',
 'NULL AS CARD_CHART_DATA,',
 'NULL AS CARD_CHART_CONFIG',
 'FROM Total_student',
@@ -57617,7 +57617,7 @@ wwv_flow_imp_page.create_page_plug(
 '''Total Teacher'' AS CARD_TITLE,',
 'Total_Teacher AS CARD_VALUE,',
 '''Total Teacher of School'' AS CARD_FOOTER,',
-'''https://apex.oracle.com/pls/apex/r/nursoft/apex-20-ibcs/call-emp-reportplug-ins-dashboard?session='' ',
+'''https://github.com/Ismail-Taswar'' ',
 '|| :APP_SESSION AS CARD_LINK,',
 'NULL AS CARD_CHART_DATA,',
 'NULL AS CARD_CHART_CONFIG',

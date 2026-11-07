@@ -814,8 +814,8 @@ wwv_flow_imp_shared.create_list_item(
 wwv_flow_imp_shared.create_list_item(
  p_id=>wwv_flow_imp.id(1259313183675386)
 ,p_list_item_display_sequence=>40
-,p_list_item_link_text=>'IsDB-BISEW'
-,p_list_item_link_target=>'https://isdb-bisew.org/ "target="_blank"'
+,p_list_item_link_text=>'Ismail Taswar'
+,p_list_item_link_target=>'https://github.com/Ismail-Taswar "target="_blank"'
 ,p_list_item_icon=>'fa-map-pin-triangle-o'
 ,p_list_item_current_type=>'TARGET_PAGE'
 );
@@ -33094,7 +33094,7 @@ begin
     wwv_flow_imp.g_varchar2_table(165) := 's15\qc \li0\ri0\widctlpar\intbl'||wwv_flow.LF||
 '\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustrig';
     wwv_flow_imp.g_varchar2_table(166) := 'ht\rin0\lin0\pararsid1396138\yts19 {\rtlch\fcs1 \ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid1396138\ch';
-    wwv_flow_imp.g_varchar2_table(167) := 'arrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 IsDB-BISEW}{\rtlch\fcs1 '||wwv_flow.LF||
+    wwv_flow_imp.g_varchar2_table(167) := 'arrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 Ismail Taswar}{\rtlch\fcs1 '||wwv_flow.LF||
 '\ab\af27\afs40 \ltrch';
     wwv_flow_imp.g_varchar2_table(168) := '\fcs0 \b\fs32\insrsid6050128\charrsid1396138 \cell }\pard \ltrpar\s15\qr \li0\ri0\widctlpar\intbl\tq';
     wwv_flow_imp.g_varchar2_table(169) := 'c\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid11292732\yts19 ';
@@ -34499,7 +34499,7 @@ begin
     wwv_flow_imp.g_varchar2_table(145) := ''||wwv_flow.LF||
 '\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid1396138\yts';
     wwv_flow_imp.g_varchar2_table(146) := '19 {\rtlch\fcs1 \ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid1396138\charrsid1396138 \hich\af31506\dbch';
-    wwv_flow_imp.g_varchar2_table(147) := '\af31505\loch\f31506 IsDB-BISEW}{\rtlch\fcs1 '||wwv_flow.LF||
+    wwv_flow_imp.g_varchar2_table(147) := '\af31505\loch\f31506 Ismail Taswar}{\rtlch\fcs1 '||wwv_flow.LF||
 '\ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid6050128\cha';
     wwv_flow_imp.g_varchar2_table(148) := 'rrsid1396138 \cell }\pard \ltrpar\s15\qr \li0\ri0\widctlpar\intbl\tqc\tx4513\tqr\tx9026\wrapdefault\';
     wwv_flow_imp.g_varchar2_table(149) := 'aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid11292732\yts19 {\field{\*\fldinst {\rtlch\fcs1 ';
@@ -35927,7 +35927,7 @@ begin
     wwv_flow_imp.g_varchar2_table(145) := ''||wwv_flow.LF||
 '\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid1396138\yts';
     wwv_flow_imp.g_varchar2_table(146) := '19 {\rtlch\fcs1 \ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid1396138\charrsid1396138 \hich\af31506\dbch';
-    wwv_flow_imp.g_varchar2_table(147) := '\af31505\loch\f31506 IsDB-BISEW}{\rtlch\fcs1 '||wwv_flow.LF||
+    wwv_flow_imp.g_varchar2_table(147) := '\af31505\loch\f31506 Ismail Taswar}{\rtlch\fcs1 '||wwv_flow.LF||
 '\ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid6050128\cha';
     wwv_flow_imp.g_varchar2_table(148) := 'rrsid1396138 \cell }\pard \ltrpar\s15\qr \li0\ri0\widctlpar\intbl\tqc\tx4513\tqr\tx9026\wrapdefault\';
     wwv_flow_imp.g_varchar2_table(149) := 'aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid11292732\yts19 {\field{\*\fldinst {\rtlch\fcs1 ';
@@ -37186,7 +37186,7 @@ begin
     wwv_flow_imp.g_varchar2_table(144) := '28 \cell }\pard \ltrpar\s15\qc \li0\ri0\widctlpar\intbl'||wwv_flow.LF||
 '\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha';
     wwv_flow_imp.g_varchar2_table(145) := '\aspnum\faauto\adjustright\rin0\lin0\pararsid1396138\yts19 {\rtlch\fcs1 \ab\af27\afs40 \ltrch\fcs0 \';
-    wwv_flow_imp.g_varchar2_table(146) := 'b\fs32\insrsid1396138\charrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 IsDB-BISEW}{\rtlch\fcs1';
+    wwv_flow_imp.g_varchar2_table(146) := 'b\fs32\insrsid1396138\charrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 Ismail Taswar}{\rtlch\fcs1';
     wwv_flow_imp.g_varchar2_table(147) := ' '||wwv_flow.LF||
 '\ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid6050128\charrsid1396138 \cell }\pard \ltrpar\s15\qr \li';
     wwv_flow_imp.g_varchar2_table(148) := '0\ri0\widctlpar\intbl\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0';
@@ -38229,7 +38229,7 @@ begin
     wwv_flow_imp.g_varchar2_table(144) := '8 \cell }\pard \ltrpar\s15\qc \li0\ri0\widctlpar\intbl'||wwv_flow.LF||
 '\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\';
     wwv_flow_imp.g_varchar2_table(145) := 'aspnum\faauto\adjustright\rin0\lin0\pararsid1396138\yts19 {\rtlch\fcs1 \ab\af27\afs40 \ltrch\fcs0 \b';
-    wwv_flow_imp.g_varchar2_table(146) := '\fs32\insrsid1396138\charrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 IsDB-BISEW}{\rtlch\fcs1 ';
+    wwv_flow_imp.g_varchar2_table(146) := '\fs32\insrsid1396138\charrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 Ismail Taswar}{\rtlch\fcs1 ';
     wwv_flow_imp.g_varchar2_table(147) := ''||wwv_flow.LF||
 '\ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid6050128\charrsid1396138 \cell }\pard \ltrpar\s15\qr \li0';
     wwv_flow_imp.g_varchar2_table(148) := '\ri0\widctlpar\intbl\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\';
@@ -39307,7 +39307,7 @@ begin
     wwv_flow_imp.g_varchar2_table(169) := 'tbl'||wwv_flow.LF||
 '\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid1396138';
     wwv_flow_imp.g_varchar2_table(170) := '\yts19 {\rtlch\fcs1 \ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid1396138\charrsid1396138 \hich\af31506\';
-    wwv_flow_imp.g_varchar2_table(171) := 'dbch\af31505\loch\f31506 IsDB-BISEW}{\rtlch\fcs1 '||wwv_flow.LF||
+    wwv_flow_imp.g_varchar2_table(171) := 'dbch\af31505\loch\f31506 Ismail Taswar}{\rtlch\fcs1 '||wwv_flow.LF||
 '\ab\af27\afs40 \ltrch\fcs0 \b\fs32\insrsid6050128';
     wwv_flow_imp.g_varchar2_table(172) := '\charrsid1396138 \cell }\pard \ltrpar\s15\qr \li0\ri0\widctlpar\intbl\tqc\tx4513\tqr\tx9026\wrapdefa';
     wwv_flow_imp.g_varchar2_table(173) := 'ult\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid11292732\yts19 {\field{\*\fldinst {\rtlch\f';
@@ -40622,7 +40622,7 @@ begin
     wwv_flow_imp.g_varchar2_table(161) := 'rd \ltrpar\s15\qc \li0\ri0\widctlpar\intbl\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\';
     wwv_flow_imp.g_varchar2_table(162) := 'adjustright\rin0\lin0\pararsid1396138\yts19 {\rtlch\fcs1 \ab\af27\afs40 \ltrch\fcs0 '||wwv_flow.LF||
 '\b\fs32\insrsi';
-    wwv_flow_imp.g_varchar2_table(163) := 'd1396138\charrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 IsDB-BISEW}{\rtlch\fcs1 \ab\af27\afs';
+    wwv_flow_imp.g_varchar2_table(163) := 'd1396138\charrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 Ismail Taswar}{\rtlch\fcs1 \ab\af27\afs';
     wwv_flow_imp.g_varchar2_table(164) := '40 \ltrch\fcs0 \b\fs32\insrsid6050128\charrsid1396138 \cell }\pard \ltrpar\s15\qr \li0\ri0\widctlpar';
     wwv_flow_imp.g_varchar2_table(165) := '\intbl'||wwv_flow.LF||
 '\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid1129';
@@ -41849,7 +41849,7 @@ begin
     wwv_flow_imp.g_varchar2_table(158) := ' \ltrpar\s17\qc \li0\ri0\widctlpar\intbl\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\ad';
     wwv_flow_imp.g_varchar2_table(159) := 'justright\rin0\lin0\pararsid1396138\yts21 {\rtlch\fcs1 \ab\af27\afs40 \ltrch\fcs0 '||wwv_flow.LF||
 '\b\fs32\insrsid1';
-    wwv_flow_imp.g_varchar2_table(160) := '396138\charrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 IsDB-BISEW}{\rtlch\fcs1 \ab\af27\afs40';
+    wwv_flow_imp.g_varchar2_table(160) := '396138\charrsid1396138 \hich\af31506\dbch\af31505\loch\f31506 Ismail Taswar}{\rtlch\fcs1 \ab\af27\afs40';
     wwv_flow_imp.g_varchar2_table(161) := ' \ltrch\fcs0 \b\fs32\insrsid6050128\charrsid1396138 \cell }\pard \ltrpar\s17\qr \li0\ri0\widctlpar\i';
     wwv_flow_imp.g_varchar2_table(162) := 'ntbl'||wwv_flow.LF||
 '\tqc\tx4513\tqr\tx9026\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid112927';
@@ -48120,7 +48120,7 @@ wwv_flow_imp_page.create_report_columns(
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(73821665770133307723)
-,p_plug_name=>'IsDB-BISEW'
+,p_plug_name=>'Ismail Taswar'
 ,p_icon_css_classes=>'fa-presentation'
 ,p_region_template_options=>'#DEFAULT#'
 ,p_plug_template=>wwv_flow_imp.id(73821434805554307559)
