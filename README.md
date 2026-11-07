@@ -42,12 +42,12 @@ Icons/, Images/  UI assets
 
 ## How to Run
 
-1. Create a schema in Oracle DB and run `Documents/Table_Script_School.txt`
-   (plus `Common_Table_Script_School.txt`), then `Documents/DB_Function.txt`,
-   `DB_Procedure.txt`, `DB_View.txt`.
+1. Create a schema in Oracle DB and run `Documents/Table_Script_School.sql`
+   (plus `Common_Table_Script_School.sql`), then `Documents/DB_Function.txt`,
+   `DB_Procedure.sql`, `DB_View.sql`.
 2. Open `.fmb` files in Oracle Forms Builder, connect to the schema, and compile
    (Ctrl+Shift+K, then Ctrl+T) to regenerate `.fmx`.
-3. For the APEX side: run `Apex/Apex_TableScript_Cloud.txt`, then import
+3. For the APEX side: run `Apex/Apex_TableScript_Cloud.sql`, then import
    `Apex/f37592_Class.sql` into an APEX workspace.
 4. `Databackup/` contains DB export dumps for restoring sample data (IMPDP).
 
