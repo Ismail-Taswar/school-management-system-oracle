@@ -1,0 +1,12 @@
+1.department wise employee report
+2.admitted student profile 
+3.Class & Session wise Admission Report
+4.Date wise Admission Report
+5.Class wise Student Report
+6.Class Routine Report
+7.teacher wise routine
+8.class wise subject
+9.Class wise Daily Attendance Report
+10.Student Monthly Attendance
+11.Exam Routine Report
+12.Class wise Fee Amount

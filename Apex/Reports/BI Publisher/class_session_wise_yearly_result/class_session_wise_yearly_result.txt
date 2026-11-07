@@ -1,0 +1,9 @@
+class_session_wise_yearly_result
+
+select   section, class, st_name, student_id,  
+        (CASE WHEN min(f_grade_point(obtained_marks)) = 0 then 'Fail' 
+                  ELSE 'Passed'
+             END) result, sessions
+from     result_view 
+where    upper(exam_type_name) = upper('written')
+group by sessions, class, section, st_name, student_id 

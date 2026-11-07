@@ -1,0 +1,3 @@
+f?p=&APP_ID.:0:&SESSION.:PRINT_REPORT=cls_xm_category_wise_result
+
+{JavaScript:window.open('f?p=&APP_ID.:0:&SESSION.:PRINT_REPORT=cls_xm_category_wise_result','_blank');}

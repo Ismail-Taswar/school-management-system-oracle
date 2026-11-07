@@ -1,0 +1,22 @@
+ class_session_wise_fee
+
+f?p=&APP_ID.:0:&SESSION.:PRINT_REPORT=class_session_wise_fee
+
+select f_class_name(fm.class_id) class, sessions, s.student_id||' - '||f_st_std_name(s.student_id) student, 
+       sum(nvl(total,0)) collected, f_total_fee_cls(fm.class_id) total_for_class, 
+       (f_total_fee_cls(fm.class_id) - sum(nvl(total,0))) Unpaid
+from   fee_m fm, fee_d fd, student s
+where  s.student_id = fm.student_id(+)
+and    fd.fee_m_id = fm.fee_m_id
+group  by f_class_name(fm.class_id), sessions, s.student_id, f_total_fee_cls(fm.class_id)
+order  by class
+
+
+select f_class_name(fm.class_id) class, sessions, s.student_id||' - '||f_st_std_name(s.student_id) student, 
+       sum(nvl(total,0)) collected, f_total_fee_cls(fm.class_id) total_for_class, 
+       (f_total_fee_cls(fm.class_id) - sum(nvl(total,0))) Unpaid
+from   fee_m fm, fee_d fd, student s
+where  s.student_id = fm.student_id(+)
+and    fd.fee_m_id = fm.fee_m_id
+group  by f_class_name(fm.class_id), sessions, s.student_id, f_total_fee_cls(fm.class_id)
+order  by class

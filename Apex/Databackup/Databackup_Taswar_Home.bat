@@ -1,0 +1,1 @@
+exp sc_ddd56a/123@dbddd56 file=G:\Project\Others\Project_R_DTCM_56_M\School\Apex\Databackup\SC_DDD56A_IT_HOME.DMP

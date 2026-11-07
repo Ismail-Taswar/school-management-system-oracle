@@ -1,0 +1,7 @@
+Employee_Report_HTML_CSS
+
+select employee_id, first_name||' '||last_name employee_name, to_char(salary, 'fm99,99,99,99,99,999.00'), 
+       to_char(join_date, 'fmdd-Mon-rrrr')
+from   employee_view
+
+https://apex.oracle.com/pls/apex/f?p=&APP_ID.:0:&SESSION.:PRINT_REPORT=Employee_Report_HTML_CSS

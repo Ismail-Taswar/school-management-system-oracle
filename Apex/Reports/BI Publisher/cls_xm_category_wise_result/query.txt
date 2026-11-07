@@ -1,0 +1,14 @@
+cls_xm_category_wise_result
+
+select   f_exam_category_name(exam_category_id) exam_cat, section, class, st_name, student_id,  
+        (CASE WHEN min(f_grade_point(obtained_marks)) = 0 then 'Fail' 
+                  ELSE 'Passed'
+             END) result, sessions
+from     result_view 
+where    upper(exam_type_name) = upper('written')
+and      class_id = :P1082_CLASS
+and      section_id = :P1082_SECTION
+and      sessions = :P1082_SESSIONS
+and      exam_category_id = :P1082_EXAM_CATEGORY
+group by sessions, class, section, st_name, student_id, exam_category_id
+order  by student_id

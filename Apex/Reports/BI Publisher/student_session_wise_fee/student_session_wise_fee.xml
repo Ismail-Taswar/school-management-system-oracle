@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+<ROWSET>
+   <ROW>
+      <NAME>13 - AKASHA islam</NAME>
+      <SESSIONS>2023</SESSIONS>
+      <CLASS>Class 6</CLASS>
+      <MONTH>January</MONTH>
+      <CDATE>28-Apr-2024</CDATE>
+      <MONTHLY_FEE>1200</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>4500</ANNUAL_FEE>
+      <TOTAL>5700</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>10 - Sara Begum</NAME>
+      <SESSIONS>2023</SESSIONS>
+      <CLASS>Class 5</CLASS>
+      <MONTH>January</MONTH>
+      <CDATE>28-Apr-2024</CDATE>
+      <MONTHLY_FEE>1000</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>4000</ANNUAL_FEE>
+      <TOTAL>5000</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>15 - FARIA jahyan</NAME>
+      <SESSIONS>2022</SESSIONS>
+      <CLASS>Class 6</CLASS>
+      <MONTH>January</MONTH>
+      <CDATE>30-Apr-2024</CDATE>
+      <MONTHLY_FEE>1200</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>4500</ANNUAL_FEE>
+      <TOTAL>5700</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>20 - RAFIA binte islam</NAME>
+      <SESSIONS>2022</SESSIONS>
+      <CLASS>Class 5</CLASS>
+      <MONTH>January</MONTH>
+      <CDATE>30-Apr-2024</CDATE>
+      <MONTHLY_FEE>1000</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>4000</ANNUAL_FEE>
+      <TOTAL>5000</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>11 - Sakib Chowdury</NAME>
+      <SESSIONS>2023</SESSIONS>
+      <CLASS>Class 5</CLASS>
+      <MONTH>January</MONTH>
+      <CDATE>30-Apr-2024</CDATE>
+      <MONTHLY_FEE>1000</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>4000</ANNUAL_FEE>
+      <TOTAL>5000</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>10 - Sara Begum</NAME>
+      <SESSIONS>2023</SESSIONS>
+      <CLASS>Class 5</CLASS>
+      <MONTH>February</MONTH>
+      <CDATE>28-Apr-2024</CDATE>
+      <MONTHLY_FEE>1000</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>0</ANNUAL_FEE>
+      <TOTAL>1000</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>20 - RAFIA binte islam</NAME>
+      <SESSIONS>2022</SESSIONS>
+      <CLASS>Class 5</CLASS>
+      <MONTH>February</MONTH>
+      <CDATE>30-Apr-2024</CDATE>
+      <MONTHLY_FEE>1000</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>0</ANNUAL_FEE>
+      <TOTAL>1000</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>15 - FARIA jahyan</NAME>
+      <SESSIONS>2022</SESSIONS>
+      <CLASS>Class 6</CLASS>
+      <MONTH>February</MONTH>
+      <CDATE>30-Apr-2024</CDATE>
+      <MONTHLY_FEE>1200</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>0</ANNUAL_FEE>
+      <TOTAL>1200</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>21 - RAFIA JAHAN</NAME>
+      <SESSIONS>2023</SESSIONS>
+      <CLASS>Class 6</CLASS>
+      <MONTH>February</MONTH>
+      <CDATE>28-Apr-2024</CDATE>
+      <MONTHLY_FEE>1200</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>0</ANNUAL_FEE>
+      <TOTAL>1200</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>10 - Sara Begum</NAME>
+      <SESSIONS>2023</SESSIONS>
+      <CLASS>Class 5</CLASS>
+      <MONTH>March</MONTH>
+      <CDATE>28-Apr-2024</CDATE>
+      <MONTHLY_FEE>1000</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>0</ANNUAL_FEE>
+      <TOTAL>1000</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>10 - Sara Begum</NAME>
+      <SESSIONS>2023</SESSIONS>
+      <CLASS>Class 5</CLASS>
+      <MONTH>April</MONTH>
+      <CDATE>28-Apr-2024</CDATE>
+      <MONTHLY_FEE>1000</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>0</ANNUAL_FEE>
+      <TOTAL>1000</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>10 - Sara Begum</NAME>
+      <SESSIONS>2023</SESSIONS>
+      <CLASS>Class 5</CLASS>
+      <MONTH>May</MONTH>
+      <CDATE>28-Apr-2024</CDATE>
+      <MONTHLY_FEE>1000</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>0</ANNUAL_FEE>
+      <TOTAL>1000</TOTAL>
+   </ROW>
+   <ROW>
+      <NAME>13 - AKASHA islam</NAME>
+      <SESSIONS>2222</SESSIONS>
+      <CLASS>Class 6</CLASS>
+      <MONTH>May</MONTH>
+      <CDATE>30-Apr-2024</CDATE>
+      <MONTHLY_FEE>1200</MONTHLY_FEE>
+      <BI_ANNUAL_FEE>0</BI_ANNUAL_FEE>
+      <ANNUAL_FEE>0</ANNUAL_FEE>
+      <TOTAL>1200</TOTAL>
+   </ROW>
+</ROWSET>
+</DOCUMENT>

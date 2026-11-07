@@ -1,0 +1,8 @@
+student_session_wise_result
+
+select   SESSIONS, student_id||' - '||st_name student, class, section, 
+         exam_category_name,
+         subject_name, show_marks, nvl(obtained_marks,0) marks, 
+         F_LETTER_GRADE(obtained_marks) letter_grade,  f_grade_point(obtained_marks) gpa
+from     result_view 
+order  by subject_name

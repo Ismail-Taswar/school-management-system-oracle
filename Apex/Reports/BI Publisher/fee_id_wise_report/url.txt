@@ -1,0 +1,3 @@
+f?p=&APP_ID.:0:&SESSION.:PRINT_REPORT=fee_id_wise_report
+
+{JavaScript:window.open('f?p=&APP_ID.:0:&SESSION.:PRINT_REPORT=fee_id_wise_report','_blank');}

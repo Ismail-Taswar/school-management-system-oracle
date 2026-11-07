@@ -1,0 +1,61 @@
+1: Install BI Server
+
+username: admin
+pass    : admin123
+
+2:login then administration then add data source then JDBC
+
+http://localhost:7001/xmlpserver/servlet/home
+
+data soure name: database name
+
+connection: string : jdbc:oracle:thin:@[host]:[port]:[sid]
+
+jdbc:oracle:thin:@blackpearl:1521:dbddd56sid
+
+username: sys 
+
+password: sys123
+
+dont test just apply change
+
+run these procedures on DB
+
+BEGIN
+  DBMS_NETWORK_ACL_ADMIN.append_host_ace (
+    host       => '*',
+    ace        => xs$ace_type(privilege_list => xs$name_list('connect'),
+                              principal_name => 'APEX_230200',
+                              principal_type => xs_acl.ptype_db)); 
+END;
+/
+
+
+BEGIN
+  DBMS_NETWORK_ACL_ADMIN.append_host_ace (
+    host       => 'localhost',
+    ace        => xs$ace_type(privilege_list => xs$name_list('connect'),
+                              principal_name => 'APEX_230200',
+                              principal_type => xs_acl.ptype_db)); 
+END;
+/
+
+GO to localhost administration
+
+manage instance> instance settings> report printing
+
+server bi publisher
+
+protocol http
+
+host address blackpearl
+
+port 7001
+
+script  /xmlpserver/convert
+
+apex instance url  http://localhost:8080/ords/
+apex image url     http://localhost:8080/i/
+
+
+

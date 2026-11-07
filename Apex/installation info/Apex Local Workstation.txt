@@ -1,0 +1,26 @@
+Apex Administration
+username: admin
+email: admin
+password: Apex#123
+
+
+
+
+Workspace:              w_1279693
+Schema:                 SC_DDD56A
+Administrator Username: admin
+Administrator Password: 123
+First Name:             Ismail
+Last Name:              Taswar
+Email:                  ismailtaswar@gmail.com
+
+
+dev for w_1279693
+username: dev
+email:    dev
+password: 123
+
+user: sc_ddd56a
+pass: 123
+
+

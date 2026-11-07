@@ -1,0 +1,32 @@
+student_session_wise_fee
+
+select student_id||' - '||f_st_std_name(student_id) name, sessions, f_class_name(class_id) class, 
+       collection_date, f_fee_amt_month(fd.fee_amount_d_id) month, fd.monthly_Fee, fd.bi_annual_fee, fd.annual_fee,
+       total
+from   fee_m fm, fee_d fd, fee_amount_d fad
+where  fd.fee_m_id = fm.fee_m_id 
+and    fd.fee_amount_d_id = fad.fee_amount_d_id
+and    student_id = :P3339_STUDENT_ID
+and    sessions   = :P3339_SESSIONS  
+order  by month_id
+
+
+select student_id||' - '||f_st_std_name(student_id) name, sessions, f_class_name(class_id) class, 
+       collection_date, f_fee_amt_month(fd.fee_amount_d_id) month, fd.monthly_Fee, fd.bi_annual_fee, fd.annual_fee,
+       total
+from   fee_m fm, fee_d fd, fee_amount_d fad
+where  fd.fee_m_id = fm.fee_m_id 
+and    fd.fee_amount_d_id = fad.fee_amount_d_id
+and    student_id like nvl(:P3339_STUDENT_ID, 0)
+and    sessions   like nvl(:P3339_SESSIONS, 0)  
+order  by month_id
+
+
+select student_id||' - '||f_st_std_name(student_id) name, sessions, f_class_name(class_id) class, 
+       f_fee_amt_month(fd.fee_amount_d_id) month, to_char(collection_date, 'DD-Mon-RRRR') cdate, 
+       fd.monthly_Fee, fd.bi_annual_fee, fd.annual_fee,
+       total
+from   fee_m fm, fee_d fd, fee_amount_d fad
+where  fd.fee_m_id = fm.fee_m_id 
+and    fd.fee_amount_d_id = fad.fee_amount_d_id
+order  by month_id
